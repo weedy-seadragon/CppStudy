@@ -18,3 +18,5 @@ void Hoge::SetValue(int value){
 }
 これだとちゃんと値がsetされない
 */
+
+//thisポインターが指す先のオブジェクトを変更できないのはメンバ関数がconst指定されている時
